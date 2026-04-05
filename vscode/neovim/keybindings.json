@@ -36,5 +36,21 @@
   {
     "key": "ctrl+g f",
     "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "ctrl+left",
+    "command": "workbench.action.decreaseViewWidth"
+  },
+  {
+    "key": "ctrl+right",
+    "command": "workbench.action.increaseViewWidth"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "workbench.action.increaseViewHeight"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "workbench.action.decreaseViewHeight"
   }
 ]
