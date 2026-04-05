@@ -48,8 +48,8 @@ if vim.g.vscode then
 
   vim.keymap.set("n", "<leader>|", function() vscode.action("workbench.action.splitEditor") end)
   vim.keymap.set("n", "<leader>-", function() vscode.action("workbench.action.splitEditorDown") end)
-  vim.keymap.set("n", "<leader>wh", function() vscode.action("workbench.action.splitEditor") end)
-  vim.keymap.set("n", "<leader>wv", function() vscode.action("workbench.action.splitEditorDown") end)
+  vim.keymap.set("n", "<leader>wh", function() vscode.action("workbench.action.splitEditorDown") end)
+  vim.keymap.set("n", "<leader>wv", function() vscode.action("workbench.action.splitEditor") end)
 
   vim.keymap.set("n", "<leader>sh", "<Nop>")
   vim.keymap.set("n", "<leader>sk", "<Nop>")
