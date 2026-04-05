@@ -52,5 +52,9 @@
   {
     "key": "cmd+down",
     "command": "workbench.action.decreaseViewHeight"
+  },
+  {
+    "key": "ctrl+g c",
+    "command": "github.copilot.toggleCopilot"
   }
 ]
