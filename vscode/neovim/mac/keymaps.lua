@@ -24,8 +24,8 @@ if vim.g.vscode then
   vim.keymap.set("n", "<leader>e", function() vscode.action("workbench.files.action.focusFilesExplorer") end)
 
   -- Use <D- for Command key on Mac
-  vim.keymap.set("n", "<D-r>", function() vscode.action("roo-cline.focusInput") end)
-  vim.keymap.set("n", "<D-S-r>", function() vscode.action("roo-cline.SidebarProvider.focus") end)
+  vim.keymap.set("n", "<D-z>", function() vscode.action("roo-cline.focusInput") end)
+  vim.keymap.set("n", "<D-S-z>", function() vscode.action("roo-cline.SidebarProvider.focus") end)
 
   vim.keymap.set("n", "<leader>x", function() vscode.action("workbench.action.closeSidebar") end)
 

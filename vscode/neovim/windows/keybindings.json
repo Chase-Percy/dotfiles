@@ -10,7 +10,7 @@
     "when": "!editorFocus"
   },
   {
-    "key": "ctrl+r",
+    "key": "ctrl+z",
     "command": "runCommands",
     "args": {
       "commands": [
@@ -56,5 +56,18 @@
   {
     "key": "ctrl+g c",
     "command": "github.copilot.toggleCopilot"
+  },
+  {
+    "key": "ctrl+g z",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.toggleStatusbarVisibility",
+        "workbench.action.toggleActivityBarVisibility",
+        "workbench.action.toggleMenuBar",
+        "workbench.action.toggleSidebarVisibility",
+        "toggle.window.commandCenter"
+      ]
+    }
   }
 ]

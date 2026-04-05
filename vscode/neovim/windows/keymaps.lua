@@ -27,8 +27,8 @@ if vim.g.vscode then
 
   vim.keymap.set("n", "<leader>e", function() vscode.action("workbench.files.action.focusFilesExplorer") end)
 
-  vim.keymap.set("n", "<C-r>", function() vscode.action("roo-cline.focusInput") end)
-  vim.keymap.set("n", "<C-R>", function() vscode.action("roo-cline.SidebarProvider.focus") end)
+  vim.keymap.set("n", "<C-z>", function() vscode.action("roo-cline.focusInput") end)
+  vim.keymap.set("n", "<C-S-z>", function() vscode.action("roo-cline.SidebarProvider.focus") end)
 
   vim.keymap.set("n", "<leader>x", function() vscode.action("workbench.action.closeSidebar") end)
 
