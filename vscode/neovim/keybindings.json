@@ -24,5 +24,13 @@
   {
     "key": "ctrl+/",
     "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+g r",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+g l",
+    "command": "workbench.action.previousEditor"
   }
 ]
