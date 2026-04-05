@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaults
 [
  {
     "key": "space e",
@@ -24,7 +23,6 @@
   },
   {
     "key": "ctrl+/",
-    "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminalFocus"
-  },
+    "command": "workbench.action.terminal.toggleTerminal"
+  }
 ]
