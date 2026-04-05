@@ -1,0 +1,56 @@
+[
+  {
+    "key": "space e",
+    "command": "workbench.action.toggleSidebarVisibility",
+    "when": "filesExplorerFocus"
+  },
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "!editorFocus"
+  },
+  {
+    "key": "cmd+r",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.closeSidebar",
+        "workbench.action.closeAuxiliaryBar",
+        "workbench.action.focusActiveEditorGroup"
+      ]
+    },
+    "when": "!editorFocus"
+  },
+  {
+    "key": "cmd+/",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+g r",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "ctrl+g l",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+g f",
+    "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+left",
+    "command": "workbench.action.decreaseViewWidth"
+  },
+  {
+    "key": "cmd+right",
+    "command": "workbench.action.increaseViewWidth"
+  },
+  {
+    "key": "cmd+up",
+    "command": "workbench.action.increaseViewHeight"
+  },
+  {
+    "key": "cmd+down",
+    "command": "workbench.action.decreaseViewHeight"
+  }
+]
